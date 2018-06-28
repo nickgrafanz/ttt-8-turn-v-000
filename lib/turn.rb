@@ -6,6 +6,10 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
+def input_to_index(user_input)
+  user_input = (user_input.toi)-1
+end
+
 def valid_move?(board,index)
   if (board[index] = "" || board[index] = " ") && (board[index]>= 0 && board[index] <= 8)
     true
