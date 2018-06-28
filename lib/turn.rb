@@ -15,7 +15,7 @@ def valid_move?(board,index)
   binding.pry
   if index.between?(0,8) && board[index] == "" || board[index] == " "
     true
-  elsif (board[index] == "X" || board[index] == "O")
+  else #(board[index] == "X" || board[index] == "O")
     false
   end
 end
