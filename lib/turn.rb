@@ -1,5 +1,5 @@
 def display_board(board)
-  board
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 end
 def valid_move?(board,index)
   if board[index] = "" || board[index] = " " && board[index]>= 0 && board[index] <= 8
