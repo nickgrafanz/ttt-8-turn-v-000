@@ -11,6 +11,7 @@ def input_to_index(user_input)
 end
 
 def valid_move?(board,index)
+  binding.pry
   if board[index] == "" || board[index] == " " && board[index].between?(0,8)
     true
   else (board[index] == "X" || board[index] == "O")
