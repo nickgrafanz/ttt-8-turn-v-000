@@ -1,10 +1,10 @@
 def display_board(board)
   board = [0, 1, 2, 3, 4, 5, 6, 7, 8]
-  puts " #{0} | #{1} | #{2} "
+  puts "   |   |   "
   puts "-----------"
-  puts " #{3} | #{4} | #{5} "
+  puts "   |   |   "
   puts "-----------"
-  puts " #{6} | #{7} | #{8} "
+  puts "   |   |   "
 end
 
 def valid_move?(board,index)
